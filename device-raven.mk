@@ -294,3 +294,12 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.quick_start.oem_id=00e0 \
     ro.quick_start.device_id=raven
+    
+# NowPlayingOverlay
+PRODUCT_PACKAGES += \
+        NowPlayingOverlay
+
+# GoogleCamera
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+PRODUCT_PACKAGES += \
+    GoogleCamera

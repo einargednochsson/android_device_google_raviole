@@ -288,3 +288,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # HBM
 PRODUCT_PACKAGES += \
     HbmSVManagerOverlay
+    
+# NowPlayingOverlay
+PRODUCT_PACKAGES += \
+        NowPlayingOverlay
+
+# GoogleCamera
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+PRODUCT_PACKAGES += \
+    GoogleCamera

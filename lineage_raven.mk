@@ -23,10 +23,13 @@ TARGET_INCLUDE_PIXEL_FRAMEWORK := true
 TARGET_EXCLUDES_AUDIOFX := true
 TARGET_PIXEL_BOOT_ANIMATION_RES := 1440
 TARGET_IS_PIXEL := true
-TARGET_IS_PIXEL_8 := true
+TARGET_IS_PIXEL_6 := true
 TARGET_PIXEL_STAND_SUPPORTED := true
 TARGET_EXCLUDES_AUXIO := true
 TARGET_EXCLUDES_VIA := true
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+BUILD_GOOGLE_MESSAGE := true
 
 # Inherit device configuration
 $(call inherit-product, device/google/raviole/aosp_raven.mk)
